@@ -25,7 +25,7 @@ public class HolaServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().println("Son las 14:00");
+		response.getWriter().println("SON LAS 14:00");
 	}
 
 	/**
